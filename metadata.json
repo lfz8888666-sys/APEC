@@ -1,0 +1,7 @@
+{
+  "name": "The Global Curatorial - APEC Shanghai 2026",
+  "description": "Official delegate guide for APEC China 2026, featuring meeting logistics, curated Shanghai tours, and local cultural experiences.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

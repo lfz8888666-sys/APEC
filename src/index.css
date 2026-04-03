@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #1163be;
+  --color-primary-container: #63a1ff;
+  --color-on-primary: #ffffff;
+  --color-secondary: #b93500;
+  --color-secondary-container: #ffc4b3;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #007070;
+  --color-tertiary-container: #8dedec;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #fffbff;
+  --color-surface-container-low: #fdf9f2;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #f1ede6;
+  --color-on-surface: #393834;
+  --color-on-surface-variant: #666460;
+  --color-outline-variant: #bcb9b3;
+}
+
+@layer base {
+  body {
+    @apply bg-surface font-body text-on-surface antialiased;
+  }
+}
+
+.glass-nav {
+  @apply bg-surface/60 backdrop-blur-3xl;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
