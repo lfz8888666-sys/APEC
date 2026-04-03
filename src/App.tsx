@@ -66,26 +66,25 @@ const HomeScreen = ({ onNavigate }: { onNavigate: (s: Screen) => void }) => (
     <TopAppBar title="APEC CHINA 2026" />
     
     {/* Hero */}
-    <section className="relative h-[280px] w-full flex items-end px-6 pb-6 mb-6 overflow-hidden mt-16">
+    <section className="relative h-[280px] w-full flex items-end px-6 pb-8 mb-6 overflow-hidden mt-16">
       <div className="absolute inset-0 z-0">
         <img 
-          className="w-full h-full object-cover brightness-[0.7]" 
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6owinvjPM2qpuQLeRV7xwVezUzBVITF7Zuz7aHGSAJW9gupM87VhzJXd0Wijdi8gGpMVEf8Cv5DaE4DlBXKOToVkxfN66187zZNgM22rWwRu4u-sz_qUzon2SV-ElEx1eZne0-rk5L58XYKmCXUm-XiOqc37pknjhnTp3L-x3tMt4rBGkqIZutew0Plm4qfc6Dkp7tfrQ8gcAh4nXcJVsSmLsLtQLfwy1HlMnZClB1zJfWpFkS_8h8o3LsTX862C6W-f_h3IHwqnH" 
-          alt="Shanghai Skyline"
+          className="w-full h-full object-cover" 
+          src="https://ima.storage.shmedia.tech/20260403/AqTfZrgqlS/abaf129ebfa1369f83ca34b4bc983b05.png" 
+          alt="APEC Banner"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
       </div>
       <div className="relative z-10 max-w-2xl">
-        <span className="inline-block px-2 py-0.5 bg-primary text-white font-headline text-[10px] font-bold tracking-widest rounded-full mb-2">APEC CHINA 2026</span>
-        <h2 className="font-headline font-extrabold text-2xl text-white leading-tight tracking-tight mb-2">The Second Senior Officials' Meeting (SOM2)</h2>
-        <div className="flex flex-wrap gap-3 text-white/90 font-medium text-xs">
-          <div className="flex items-center gap-1.5">
-            <Calendar className="w-3 h-3" />
+        <span className="inline-block px-2 py-0.5 bg-primary text-white font-headline text-[10px] font-bold tracking-widest rounded-full mb-3">APEC CHINA 2026</span>
+        <h2 className="font-headline font-extrabold text-2xl text-white leading-tight tracking-tight mb-3">The Second Senior Officials' Meeting (SOM2)</h2>
+        <div className="flex flex-wrap gap-4 text-white/90 font-medium text-xs">
+          <div className="flex items-center gap-2">
+            <Calendar className="w-3.5 h-3.5" />
             <span>May 11-19, 2026</span>
           </div>
-          <div className="flex items-center gap-1.5">
-            <MapPin className="w-3 h-3" />
+          <div className="flex items-center gap-2">
+            <MapPin className="w-3.5 h-3.5" />
             <span>Shanghai, CHINA</span>
           </div>
         </div>
@@ -186,7 +185,7 @@ const HomeScreen = ({ onNavigate }: { onNavigate: (s: Screen) => void }) => (
         <div className="absolute inset-0 z-0">
           <img 
             className="w-full h-full object-cover" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH0W_V_64w4M2W4A8m_O_X0R3Z_4h8p9j_p9R_R_Q_H_G_F_E_D_C_B_A" 
+            src="https://ima.storage.shmedia.tech/20260403/6k4uPEjHm9/7b18d2386559d8437b6401e2ec8b13cf.png" 
             alt="Shanghai Invitation"
             referrerPolicy="no-referrer"
           />
